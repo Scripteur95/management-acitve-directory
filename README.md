@@ -31,3 +31,17 @@ $installerPath = "$env:TEMP\GitInstaller.exe"
 Invoke-WebRequest -Uri $gitUrl -OutFile $installerPath
 Start-Process -FilePath $installerPath -ArgumentList "/SILENT" -Wait
 Remove-Item $installerPath
+```
+#Powershell en administrateur cloner le git :
+```
+git clone https://github.com/Scripteur95/management-acitve-directory
+```
+#donner les droit d'executer le script :
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+##puis lancer le script :
+```
+cd C:\management-acitve-directory
+./main.ps1
+```
