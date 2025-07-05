@@ -17,7 +17,7 @@ Bienvenue dans ce projet de scripts PowerShell pour la gestion et l’automatisa
 
 Avant d’utiliser ce projet, il est nécessaire d’avoir Git installé sur votre machine.
 
-### Sur Windows Server 2022
+### Sur Windows Server 2022 TESTER SUR une VM POUR l INSTANT
 
 1. Ouvrez **PowerShell en mode Administrateur**.
 2. Exécutez le script suivant pour télécharger et installer Git (64-bit) automatiquement :
